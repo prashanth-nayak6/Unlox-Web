@@ -1,0 +1,89 @@
+.products-page {
+  padding-top: 20px;
+}
+
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.filter-pill {
+  padding: 10px 16px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.filter-pill.active {
+  color: white;
+  background: linear-gradient(135deg, var(--primary), #3b82f6);
+}
+
+.product-details-page {
+  padding-top: 20px;
+}
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: 16px;
+}
+
+.product-details-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 22px;
+}
+
+.details-image {
+  width: 100%;
+  min-height: 360px;
+  max-height: 540px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.details-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-rating {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.details-description {
+  margin-top: 16px;
+}
+
+.details-actions {
+  margin-top: 26px;
+  justify-content: flex-start;
+}
+
+.details-price {
+  font-size: 1.8rem;
+}
+
+.related-section {
+  margin-top: 24px;
+  padding: 26px;
+}
+
+.related-grid .product-description {
+  min-height: 48px;
+}
+
+@media (max-width: 860px) {
+  .product-details-card {
+    grid-template-columns: 1fr;
+  }
+
+  .details-image {
+    min-height: 280px;
+  }
+}
