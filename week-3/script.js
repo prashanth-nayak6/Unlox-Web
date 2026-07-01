@@ -1,7 +1,5 @@
 // ================= WEATHER APP =================
-
-
-
+git
 async function getWeather() {
 
     const city = document.getElementById("cityInput").value.trim();
@@ -68,7 +66,6 @@ async function getWeather() {
 
 // ================= MOVIE APP =================
 
-// Replace with your OMDb API Key
 const movieApiKey = "1c456b82";
 
 async function searchMovie(){
